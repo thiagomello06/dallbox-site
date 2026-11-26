@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="icon" type="Image/png" href="img/Logo dallbox _pages-to-jpg-0001.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>DallBox Embalagens</title>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+
+        <a class="logo" href="#inicio">
+            <img src="img/Logo dallbox _pages-to-jpg-0001.png" alt="Logo DallBox">
+        </a>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#produto">Produtos</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+    </header>
+
+
+    <!-- BANNER PRINCIPAL -->
+    <section id="inicio" class="banner">
+
+        <div class="banner-conteudo">
+
+            <h2>DallBox Embalagens</h2>
+
+            <h3>
+                Qualidade, resistência e a embalagem
+                ideal para o seu negócio!
+            </h3>
+
+            <p>
+                Soluções em embalagens personalizadas com
+                o melhor custo-benefício da região.
+            </p>
+
+            <a href="#contato" class="botao-orcamento">
+                Solicite um Orçamento
+            </a>
+
+        </div>
+
+        <!-- FOTO DA EMPRESA -->
+        <div class="banner-caixas">
+
+            <img
+                src="img/WhatsApp Image 2026-11-24 at 23.54.38.jpeg"
+                alt="Estrutura da DallBox Embalagens"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- BENEFÍCIOS -->
+    <section class="beneficios">
+
+        <div class="beneficio">
+
+            <i data-lucide="shield-check" class="icone-beneficio"></i>
+
+            <h3>Qualidade</h3>
+
+            <p>
+                Não é apenas uma caixa.
+                É a proteção do seu negócio!
+            </p>
+
+        </div>
+
+
+        <div class="beneficio">
+
+            <i data-lucide="truck" class="icone-beneficio"></i>
+
+            <h3>Entrega</h3>
+
+            <p>
+                Pontualidade e compromisso para sua
+                embalagem chegar quando você precisa.
+            </p>
+
+        </div>
+
+
+        <div class="beneficio">
+
+            <i data-lucide="handshake" class="icone-beneficio"></i>
+
+            <h3>Confiança</h3>
+
+            <p>
+                Compromisso com cada cliente,
+                do primeiro contato até a entrega.
+            </p>
+
+        </div>
+
+
+        <div class="beneficio">
+
+            <i data-lucide="headset" class="icone-beneficio"></i>
+
+            <h3>Atendimento</h3>
+
+            <p>
+                Atendimento personalizado para encontrar
+                a solução ideal para sua empresa.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUTOS -->
+    <section id="produto" class="produtos">
+
+        <div class="secao-cabecalho">
+
+            <div>
+
+                <h2>Nossos <span>Produtos</span></h2>
+
+                <p>
+                    Soluções em embalagens para diferentes
+                    necessidades e segmentos.
+                </p>
+
+                <!-- DESTAQUE DE VARIEDADE -->
+                <div
+                    class="produto-variedade"
+                    style="
+                        display: inline-flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 15px;
+                        padding: 10px 15px;
+                        border-radius: 12px;
+                        background: #eef4ff;
+                        border: 1px solid #d8e6fa;
+                    "
+                >
+
+                    <i
+                        data-lucide="layers"
+                        style="
+                            width: 20px;
+                            height: 20px;
+                            color: #174a89;
+                            flex-shrink: 0;
+                        "
+                    ></i>
+
+                    <span
+                        style="
+                            font-size: 14px;
+                            font-weight: 600;
+                            color: #174a89;
+                        "
+                    >
+                        Diversos tamanhos, modelos e possibilidades
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="produto-controles">
+
+                <button id="produto-voltar" aria-label="Produtos anteriores">
+
+                    <i data-lucide="chevron-left"></i>
+
+                </button>
+
+                <button id="produto-avancar" aria-label="Próximos produtos">
+
+                    <i data-lucide="chevron-right"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARROSSEL DE PRODUTOS -->
+        <div class="lista-produtos" id="produtos-carrossel">
+
+
+            <!-- SACOS CRAFT -->
+            <article class="produto-card">
+
+                <div class="produto-foto">
+
+                    <img
+                        src="img/Sacola Kraft com Logo de Hambúrguer.png"
+                        alt="Saco Crafts"
+                    >
+
+                </div>
+
+                <div class="produto-info">
+
+                    <h3>Saco Craft</h3>
+
+                    <p>
+                        O sabor conquista, a apresentação encanta.
+                    </p>
+
+                    <a
+                        href="https://wa.me/5551995520920?text=Olá!%20Gostaria%20de%20um%20orçamento%20de%20Saco%20craft."
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Solicitar Orçamento
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- EMBALAGENS PERSONALIZADAS -->
+            <article class="produto-card">
+
+                <div class="produto-foto">
+
+                    <img
+                        src="img/Caixa de Sushi Taiyô Delivery.png"
+                        alt="Embalagens personalizadas"
+                    >
+
+                </div>
+
+                <div class="produto-info">
+
+                    <h3>Embalagens Personalizadas</h3>
+
+                    <p>
+                        Da sua ideia para o papel.
+                        A identidade da sua marca em cada detalhe.
+                    </p>
+
+                    <a
+                        href="https://wa.me/5551995520920?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20embalagens%20personalizadas."
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Solicitar Orçamento
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUTOS DE ISOPOR -->
+            <article class="produto-card">
+
+                <div class="produto-foto">
+
+                    <img
+                        src="img/Meshy_AI_.png"
+                        alt="Embalagens de isopor"
+                    >
+
+                </div>
+
+                <div class="produto-info">
+
+                    <h3>Caixas de Isopor</h3>
+
+                    <p>
+                        Feito para transportar com cuidado
+                        e apresentar com carinho.
+                    </p>
+
+                    <a
+                        href="https://wa.me/5551995520920?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20embalagens%20de%20isopor."
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Solicitar Orçamento
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SACOLAS -->
+            <article class="produto-card">
+
+                <div class="produto-foto">
+
+                    <img
+                        src="img/sacola_role.png"
+                        alt="Sacolas personalizadas"
+                    >
+
+                </div>
+
+                <div class="produto-info">
+
+                    <h3>Sacolas</h3>
+
+                    <p>
+                        Estilo para levar,
+                        personalidade para mostrar.
+                    </p>
+
+                    <a
+                        href="https://wa.me/5551995520920?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20sacolas."
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Solicitar Orçamento
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- VENDEDORES -->
+    <section id="vendedores" class="vendedores secao-clara">
+
+        <div class="secao-cabecalho centralizado">
+
+            <div>
+
+                <h2>Nossa Equipe de Vendas</h2>
+
+                <p>Conheça nossos vendedores</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="lista-vendedores">
+
+
+            <!-- DEYSE -->
+            <article class="vendedor">
+
+                <img
+                    src="img/vendedores/deyse.jpg"
+                    alt="Foto da Deyse"
+                >
+
+                <h3>Deyse</h3>
+
+                <a href="#contato">
+                    Falar pelo WhatsApp
+                </a>
+
+            </article>
+
+
+            <!-- DOUGLAS -->
+            <article class="vendedor">
+
+                <img
+                    src="img/vendedores/douglas.jpg"
+                    alt="Foto do Douglas"
+                >
+
+                <h3>Douglas</h3>
+
+                <a href="#contato">
+                    Falar pelo WhatsApp
+                </a>
+
+            </article>
+
+
+            <!-- JAZZMIN -->
+            <article class="vendedor">
+
+                <img
+                    src="img/vendedores/jazzmin.jpg"
+                    alt="Foto da Jazzmin"
+                >
+
+                <h3>Jazzmin</h3>
+
+                <a href="#contato">
+                    Falar pelo WhatsApp
+                </a>
+
+            </article>
+
+
+            <!-- JENNYFER -->
+            <article class="vendedor">
+
+                <img
+                    src="img/vendedores/jennyfer.jpg"
+                    alt="Foto da Jennyfer"
+                >
+
+                <h3>Jennyfer</h3>
+
+                <a href="#contato">
+                    Falar pelo WhatsApp
+                </a>
+
+            </article>
+
+
+            <!-- MARCELO -->
+            <article class="vendedor">
+
+                <img
+                    src="img/vendedores/marcelo.jpg"
+                    alt="Foto do Marcelo"
+                >
+
+                <h3>Marcelo</h3>
+
+                <a href="#contato">
+                    Falar pelo WhatsApp
+        </a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- SOBRE A DALLBOX -->
+    <section id="sobre" class="sobre">
+
+        <div class="sobre-imagem">
+
+            <img
+                src="img/WhatsApp Image 2026-11-24 at 23.54.38.jpeg"
+                alt="Estrutura da DallBox Embalagens"
+            >
+
+        </div>
+
+
+        <div class="sobre-conteudo">
+
+            <h2>Sobre a <span>DallBox</span></h2>
+
+            <a href="#contato" class="botao-sobre">
+                Entre em contato
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- POR QUE ESCOLHER A DALLBOX -->
+    <section class="porque-dallbox secao-clara">
+
+        <div class="secao-cabecalho centralizado">
+
+            <div>
+
+                <h2>Por que escolher a <span>DallBox?</span></h2>
+
+            </div>
+
+        </div>
+
+
+        <div class="lista-diferenciais">
+
+
+            <article class="diferencial">
+
+                <i data-lucide="badge-check"></i>
+
+                <h3>Qualidade</h3>
+
+                <p>
+                    Produtos desenvolvidos para
+                    atender às suas necessidades.
+                </p>
+
+            </article>
+
+
+            <article class="diferencial">
+
+                <i data-lucide="handshake"></i>
+
+                <h3>Compromisso</h3>
+
+                <p>
+                    Valorizamos cada cliente
+                    e cada parceria.
+                </p>
+
+            </article>
+
+
+            <article class="diferencial">
+
+                <i data-lucide="clock"></i>
+
+                <h3>Pontualidade</h3>
+
+                <p>
+                    Compromisso com prazos
+                    e agilidade no atendimento.
+                </p>
+
+            </article>
+
+
+            <article class="diferencial">
+
+                <i data-lucide="thumbs-up"></i>
+
+                <h3>Custo-benefício</h3>
+
+                <p>
+                    Soluções que unem qualidade
+                    e preço competitivo.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTATO -->
+    <section id="contato" class="contato">
+
+        <div class="contato-conteudo">
+
+            <h2>Vamos encontrar a embalagem ideal para você?</h2>
+
+            <p>
+                Entre em contato com nossa equipe
+                e solicite seu orçamento.
+            </p>
+
+            <a
+                href="https://wa.me/5551995520920"
+                target="_blank"
+                rel="noopener"
+                class="botao-contato"
+            >
+
+                <i data-lucide="message-circle"></i>
+
+                Solicitar Orçamento
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <div class="rodape-conteudo">
+
+
+            <!-- LOGO -->
+            <div class="rodape-logo">
+
+                <h2>DallBox</h2>
+
+                <p>Embalagens</p>
+
+                <span>
+                    Soluções em embalagens para o seu negócio.
+                </span>
+
+            </div>
+
+
+            <!-- LINKS -->
+            <div class="rodape-links">
+
+                <h3>Links úteis</h3>
+
+                <a href="#inicio">Início</a>
+
+                <a href="#sobre">Sobre nós</a>
+
+                <a href="#produto">Produtos</a>
+
+                <a href="#vendedores">Vendedores</a>
+
+                <a href="#contato">Contato</a>
+
+            </div>
+
+
+            <!-- CONTATO -->
+            <div class="rodape-contato">
+
+                <h3>Contato</h3>
+
+                <p>
+                    <i data-lucide="phone"></i>
+                    Telefone: (51) 99552-0920
+                </p>
+
+                <p>
+                    <a href="https://maps.app.goo.gl/iBHoXmQYq72saQmG7" target="_blank" class="link-endereco">
+
+                    <i data-lucide="map-pin"></i>
+                    Estância Velha - RS
+
+                    </a>
+                </p>
+
+            </div>
+
+
+            <!-- REDES SOCIAIS -->
+            <div class="rodape-redes">
+
+                <h3>Siga-nos</h3>
+
+                <a href="https://www.instagram.com/dallbox_ev?utm_source=ig_web_button_share_sheet&jplx=ZDNlZDc0MzIxNw==" target="_blank" aria-label="Instagram">
+                    <img src="img/instagram-logo-instagram-icon-transparent-free-png.png" alt="Instagram" class="logo-isntagram">
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- COPYRIGHT -->
+        <div class="rodape-final">
+
+            <p>
+                DallBox Embalagens.
+            </p>
+
+            <p>
+                DallBox Embalagens — sempre com você!
+            </p>
+
+        </div>
+
+    </footer>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+    <!-- SCRIPT DO CARROSSEL -->
+    <script>
+
+        const carrosselProdutos = document.getElementById("produtos-carrossel");
+
+        const botaoVoltarProdutos = document.getElementById("produto-voltar");
+
+        const botaoAvancarProdutos = document.getElementById("produto-avancar");
+
+
+        botaoAvancarProdutos.addEventListener("click", () => {
+
+            carrosselProdutos.scrollBy({
+                left: carrosselProdutos.clientWidth * 0.8,
+                behavior: "smooth"
+            });
+
+        });
+
+
+        botaoVoltarProdutos.addEventListener("click", () => {
+
+            carrosselProdutos.scrollBy({
+                left: -carrosselProdutos.clientWidth * 0.8,
+                behavior: "smooth"
+            });
+
+        });
+
+
+        lucide.createIcons();
+
+    </script>
+
+</body>
+</html>
